@@ -27,7 +27,7 @@ $(document).ready(function() {
 jQuery(document).ready(function($) {
     var promoticker = function() {
         var window_width = window.innerWidth;
-        var speed = 8 * window_width;
+        var speed = 17 * window_width;
         $('#promo-notifications li:first').animate({ left: '-980px' }, speed, 'linear', function() {
             $(this).detach().appendTo('#promo-notifications ul').css('left', "100%");
             promoticker();
