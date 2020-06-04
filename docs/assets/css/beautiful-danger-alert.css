@@ -11,3 +11,28 @@
     border-color: #fbe1e3;
     color: #e73d4a;
 }
+
+#promo-notifications {
+    background: transparent;
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+}
+
+#promo-notifications ul {
+    width: 100%;
+    height: 35px;
+    position: relative;
+    overflow: hidden;
+}
+
+#promo-notifications li {
+    width: 980px;
+    line-height: 35px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    text-align: center;
+    list-style: none;
+}
